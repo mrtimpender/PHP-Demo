@@ -28,6 +28,8 @@ body{
 
 a{
 	transition:333ms all ease-in-out;
+	text-decoration: none;
+	color:#A3BAC3;
 }
 
 a:hover{

@@ -7,7 +7,11 @@
 
 	<div class="hero">
 		<div class="row clearfix">
-			<h1>Hi, My name is what? My name is who? My name is tickaticka Slim Shady.</h1>
+			<?php if (empty($userName)) : ?>
+				<h1>Hey, I don't recognize you.  Please <a href="login.php">login here.</a></h1>
+			<?php else : ?>
+				<h1> Hi <?php echo $userName ?>, Welcome back!</h1>
+			<?php endif; ?>
 		</div>
 	</div>
 

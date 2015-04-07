@@ -1,5 +1,5 @@
 <?php
-	$userName = "YourName";
+	// $userName = "Tim Pender";
 	$pageID = strtolower($pageTitle);
 ?>
 
